@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+.nav-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5% 5% auto;
+    align-items: flex-end;
+}
+
+.nav-line a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin-bottom: 3%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +99,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+#about {
+    width: 100%;
+    margin-left: 1%;
 }
 
 .middle-content {
@@ -144,3 +165,78 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#box1 {
+    background:teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 { 
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+.about-links {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding: 2% 0;
+    margin-bottom: 5%;
+}
+
+.about-links h5 {
+    margin-top: 2%;
+}
+
+#middle-content-about {
+    border: none;
+}
+
+.about-links a {
+    background: white;
+	margin-top: 5%;
+	display: block;
+	width: 35%;
+	border: 2px solid black;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 3% 4%;
+	font-size: 100%;
+    text-align: center;
+    color: black;
+}
+
+.bottom-content-about {
+    padding-left: 2%;
+    margin-bottom: 5%;
+}
+
